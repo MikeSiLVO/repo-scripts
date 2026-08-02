@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.audio.profiles" name="Audio Profiles" version="2.2.0" provider-name="pkscout, notoco, Regss">
+<addon id="script.audio.profiles" name="Audio Profiles" version="2.2.1" provider-name="pkscout, notoco, Regss">
 	<requires>
         <import addon="xbmc.python" version="3.0.0" />
 	</requires>
@@ -7,10 +7,11 @@
 	<extension point="xbmc.service" library="service.py" />
 	<extension point="xbmc.addon.metadata">
 		<news>
-v.2.2.0
+v.2.2.1
 - this update is for Kodi 22 Piers and later
 - added full list of audio codec support
 - rearranged settings
+- added skin support for Artic Zephyr Rounded
 		</news>
 		<assets>
 			<icon>icon.png</icon>
@@ -22,6 +23,7 @@ v.2.2.0
 		<source>https://github.com/pkscout/script.audio.profiles</source>
 		<summary lang="af_ZA">Stoor oudio profiel en skakel maklik tussen hulle.</summary>
 		<summary lang="bs_BA">Sačuvajte audio profil i lako se prebacujte između njih.</summary>
+		<summary lang="cs_CZ">Umožňuje uložit zvukové profily a snadno mezi nimi přepínat.</summary>
 		<summary lang="da_DK">Gem lydprofiler og skift let mellem dem.</summary>
 		<summary lang="de_DE">Audioprofile speichern und einfach zwischen diesen wechseln.</summary>
 		<summary lang="en_GB">Save audio profile and easily switch between them.</summary>
@@ -43,6 +45,7 @@ v.2.2.0
 		<summary lang="zh_CN">保存音频配置文件并在它们之间轻松切换。</summary>
 		<description lang="af_ZA">Stoor oudio profiel en skakel maklik tussen hulle.</description>
 		<description lang="bs_BA">Sačuvajte audio profil i lako se prebacujte između njih.</description>
+		<description lang="cs_CZ">Umožňuje uložit zvukové profily a snadno mezi nimi přepínat.</description>
 		<description lang="da_DK">Gem lydprofiler og skift let mellem dem.</description>
 		<description lang="de_DE">Audioprofile speichern und einfach zwischen diesen wechseln.</description>
 		<description lang="en_GB">Save audio profile and easily switch between them.</description>
